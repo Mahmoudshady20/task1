@@ -1,2 +1,2 @@
 FROM nginx
-COPY index.html /usr/share/nginx/htmld
+COPY shady.java.java /usr/share/nginx/htmld
