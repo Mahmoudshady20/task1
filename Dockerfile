@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /test
 
-COPY shady.java.java /test
+COPY shady.java /test
 
-RUN javac shady.java.java
+RUN javac shady.java
 
-CMD java shady.java
+CMD java shady
